@@ -36,3 +36,54 @@ This repository contains experimental data from a study on the thermal and hydra
 
 - 90 variations: 15 flow rate conditions × 3 plate spacing × 2 bulk temperatures
 - Multiple readings per variation (averaged for analysis)
+
+# Experimental Setup:
+
+# Thermocouple Positions and Channel Mapping:
+| Sr. No. | Thermocouple Position         | Channel No. | Description                         |
+| ------- | ----------------------------- | ----------- | ----------------------------------- |
+| 1       | Tank Water 1                  | CH01        | Hot water tank temperature          |
+| 2       | Tank Water 2                  | CH02        | Average tank temperature            |
+| 3       | Ambient Temperature 1         | CH03        | Ambient air temperature             |
+| 4       | Ambient Temperature 2         | CH04        | Average ambient temperature         |
+| 5       | Plate 1 Inlet Temperature     | CH05        | Inlet temperature of Plate 1        |
+| 6       | Plate 1 Outlet Temperature    | CH06        | Outlet temperature of Plate 1       |
+| 7       | Plate 1 Surface Temperature 1 | CH07        | Surface temperature of Plate 1      |
+| 8       | Plate 1 Surface Temperature 2 | CH08        | Average surface temperature Plate 1 |
+| 9       | Plate 2 Inlet Temperature     | CH09        | Inlet temperature of Plate 2        |
+| 10      | Plate 2 Outlet Temperature    | CH10        | Outlet temperature of Plate 2       |
+| 11      | Plate 2 Surface Temperature 1 | CH11        | Surface temperature of Plate 2      |
+| 12      | Plate 2 Surface Temperature 2 | CH12        | Average surface temperature Plate 2 |
+| 13      | Plate 3 Inlet Temperature     | CH13        | Inlet temperature of Plate 3        |
+| 14      | Plate 3 Outlet Temperature    | CH14        | Outlet temperature of Plate 3       |
+| 15      | Plate 3 Surface Temperature 1 | CH15        | Surface temperature of Plate 3      |
+| 16      | Plate 3 Surface Temperature 2 | CH16        | Average surface temperature Plate 3 |
+
+# Experimental Conditions:
+| Parameter              | Values / Variations                       |
+| ---------------------- | ----------------------------------------- |
+| Bulk Water Temperature | 50°C, 60°C                                |
+| Plate Spacing          | 50 mm, 100 mm, 150 mm                     |
+| Active Plates          | 1, 2, 3                                   |
+| Flow Rates (LPM)       | 5–30 LPM depending on active plates       |
+| Number of Variations   | 90 (15 flow × 3 spacing × 2 temperatures) |
+| Readings per Variation | 10 readings averaged under steady-state   |
+
+# Measured Variables:
+| Variable            | Units  | Description                            |
+| ------------------- | ------ | -------------------------------------- |
+| P_IN                | kg/cm² | Inlet pressure                         |
+| P_OUT               | kg/cm² | Outlet pressure                        |
+| P_DROP              | kg/cm² | Pressure drop across heat exchanger    |
+| FLOW                | LPM    | Volumetric flow rate                   |
+| HOT_WATER_TANK_TEMP | °C     | Temperature of hot water tank          |
+| AMBIENT_TEMP        | °C     | Ambient air temperature                |
+| PLATE1_INLET_TEMP   | °C     | Plate 1 inlet temperature              |
+| PLATE1_OUTLET_TEMP  | °C     | Plate 1 outlet temperature             |
+| PLATE1_SURFACE_TEMP | °C     | Average surface temperature of Plate 1 |
+| PLATE2_INLET_TEMP   | °C     | Plate 2 inlet temperature              |
+| PLATE2_OUTLET_TEMP  | °C     | Plate 2 outlet temperature             |
+| PLATE2_SURFACE_TEMP | °C     | Average surface temperature of Plate 2 |
+| PLATE3_INLET_TEMP   | °C     | Plate 3 inlet temperature              |
+| PLATE3_OUTLET_TEMP  | °C     | Plate 3 outlet temperature             |
+| PLATE3_SURFACE_TEMP | °C     | Average surface temperature of Plate 3 |
